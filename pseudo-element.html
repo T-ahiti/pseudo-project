@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: '.pdf';    
+             /* emon korle ekbare shobgula h3 er lej er piche pdf jinishta laiga jabe */
+             color: red;
+             font-size: 10px;
+             background-color: yellow;
+        }
+
+        h3::before{
+            content: 'start: ';
+            /* same as after eta just age boshe */
+        }
+
+        p::first-letter{
+            font-size: 3em;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+
+        ::selection{
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Heading -1</h3>
+    <h3>Heading -2</h3>
+    <h3>Heading -3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum nisi natus voluptatum ipsam accusamus, fuga qui rem voluptates debitis ad labore ut illum iusto, harum commodi numquam ex hic quisquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, animi, sapiente voluptas velit labore beatae a dolor saepe qui sit fugit hic accusamus eaque cum. Expedita nihil modi error distinctio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab enim voluptatibus, provident eos nulla commodi corrupti sit ea? Magni suscipit quibusdam reiciendis. Harum, reiciendis odio? Sunt animi natus dolores officia?</p>
+</body>
+
+</html>
